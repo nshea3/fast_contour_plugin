@@ -19,6 +19,12 @@ High-performance contour generation for QGIS using the contourpy library.
 
 First, install the contourpy library in QGIS's Python environment:
 
+Try installing directly in the QGIS Python console (Plugins > Python Console) by running the following command: 
+
+```bash
+import pip; pip.main(['install', 'mypackage'])
+```
+
 **Windows:**
 ```cmd
 # Open OSGeo4W Shell as Administrator
