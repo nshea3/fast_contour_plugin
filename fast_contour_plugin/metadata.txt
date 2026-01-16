@@ -1,0 +1,23 @@
+[general]
+name=Fast Contour
+qgisMinimumVersion=3.0
+description=High-performance contour generation using contourpy library (5-20x faster than GDAL)
+version=1.0
+author=Nicholas Shea
+email=nshea@arcametals.com
+
+about=Fast Contour uses the contourpy library to generate contour lines from raster layers significantly faster than GDAL's native implementation. Perfect for large geophysical grids and DEM processing. Maintains proper CRS and geospatial references. Requires contourpy installation: pip install contourpy
+
+tracker=https://github.com/yourusername/fast-contour-qgis
+repository=https://github.com/yourusername/fast-contour-qgis
+
+tags=raster,contour,vector,performance,geophysics,DEM,elevation
+
+homepage=https://github.com/yourusername/fast-contour-qgis
+category=Raster
+icon=icon.png
+
+experimental=False
+deprecated=False
+
+hasProcessingProvider=yes
