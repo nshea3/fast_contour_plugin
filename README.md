@@ -22,7 +22,7 @@ First, install the contourpy library in QGIS's Python environment:
 Try installing directly in the QGIS Python console (Plugins > Python Console) by running the following command: 
 
 ```bash
-import pip; pip.main(['install', 'mypackage'])
+import pip; pip.main(['install', 'contourpy'])
 ```
 
 **Windows:**
